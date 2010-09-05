@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>A jQTouch sample application</title>
+		<script type="text/javascript" src="jqtouch/jquery-1.4.2.js"></script>
+		<script type="text/javascript" src="jqtouch/jqtouch.js"></script>
+		<link rel="stylesheet" type="text/css" href="jqtouch/jqtouch.css" />
+		<link rel="stylesheet" type-"text/css" href="themes/apple/theme.css">
+		<script type="text/javascript">
+			var jQT = new $.jQTouch();
+		</script>
+	</head>
+	<body>
+		<div id="jqt">
+			<div id="home" class="current">
+				<div class="toolbar">
+					<h1>jQTouch</h1>
+				</div>
+				<ul class="rounded">
+					<li class="arrow"><a href="#settings" class="flip">Settings</a></li>
+					<li>A menu item</li>
+					<li>And another again.</li>
+				</ul>
+			</div>
+			<div id="settings">
+				<div class="toolbar">
+					<h1>Settings</h1>
+					<a class="button back flip" href="#home">Back</a>
+				</div>
+				<ul class="edgetoedge">
+					<li>More menu items! Hooray!</li>
+				</ul>
+		</div>
+	</body>
+</html>
