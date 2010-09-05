@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Building Mobile Apps with Web Standards Hello, my name is Tim Rogers. I’m a 17 year old student from Essex. I’m studying for my A Levels, but in my spare time, I like to make cool stuff, mainly for the web and for mobile platforms. I develop iPhone and Android application for their respective app stores - but there’s a twist! Web standards (and technologies) The challenges of mobile development What are our challenges? What platforms should I develop for? Do I have the right skills? How do I created a good experience for mobile users that is consistent with their expectations? What features are available, and which should I choose to implement? And what are the possible solutions? Web applications Native applications Native vs Web App Web app Using existing web development skills Compatible with a variety of platforms No expensive fees Native Access to device APIs Generally better performance Opportunity to market your application in a store Easy to charge for your app But what about if you could merge the best bits together...   + jQTouch What is jQTouch? A jQuery plugin for creating mobile interfaces, created by David Kaneda, now taken over by Sencha Inc. Free and open source Available on GitHub Works in the WebKit engine on both Android and iOS. A great platform consistent user experience Access to jQuery, as well as the ability to use all your favourite Javascript libraries like Underscore.js to do anything you like Getting started with jQTouch It is very easy to get started with jQTouch. Include the jQuery and jQTouch Javascript files Include the jQTouch and Apple theme CSS stylesheets Add the initialisation Javascript... And then write the code to create your ‘screens’... var jQT = new $.jQTouch();  &lt;div id=&quot;jqt&quot;&gt; 	&lt;div id=&quot;home&quot; class=&quot;current&quot;&gt; 		&lt;!-- Toolbar and menus !--&gt; 	&lt;/div&gt; 	&lt;div id=&quot;settings&quot;&gt; 		&lt;!-- Another page !--&gt; 	&lt;/div&gt;	 &lt;/div&gt;  code/slide5-1.js code/slide5-2.html A sample jQTouch application &lt;html&gt; 	&lt;head&gt; 		&lt;title&gt;A jQTouch sample application&lt;/title&gt; 		&lt;script type=&quot;text/javascript&quot; src=&quot;jqtouch/jquery-1.4.2.js&quot;&gt;&lt;/script&gt; 		&lt;script type=&quot;text/javascript&quot; src=&quot;jqtouch/jqtouch.js&quot;&gt;&lt;/script&gt; 		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;jqtouch/jqtouch.css&quot; /&gt; 		&lt;link rel=&quot;stylesheet&quot; type-&quot;text/css&quot; href=&quot;themes/apple/theme.css&quot;&gt; 		&lt;script type=&quot;text/javascript&quot;&gt; 			var jQT = new $.jQTouch(); 		&lt;/script&gt; 	&lt;/head&gt; 	&lt;body&gt; 		&lt;div id=&quot;jqt&quot;&gt; 			&lt;div id=&quot;home&quot; class=&quot;current&quot;&gt; 				&lt;div class=&quot;toolbar&quot;&gt; 					&lt;h1&gt;jQTouch&lt;/h1&gt; 				&lt;/div&gt; 				&lt;ul class=&quot;rounded&quot;&gt; 					&lt;li class=&quot;arrow&quot;&gt;&lt;a href=&quot;#settings&quot; class=&quot;flip&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt; 					&lt;li&gt;A menu item&lt;/li&gt; 					&lt;li&gt;And another again.&lt;/li&gt; 				&lt;/ul&gt; 			&lt;/div&gt; 			&lt;div id=&quot;settings&quot;&gt; 				&lt;div class=&quot;toolbar&quot;&gt; 					&lt;h1&gt;Settings&lt;/h1&gt; 					&lt;a class=&quot;button back flip&quot; href=&quot;#home&quot;&gt;Back&lt;/a&gt; 				&lt;/div&gt; 				&lt;ul class=&quot;edgetoedge&quot;&gt; 					&lt;li&gt;More menu items! Hooray!&lt;/li&gt; 				&lt;/ul&gt; 		&lt;/div&gt; 	&lt;/body&gt; &lt;/html&gt;  code/slide6-1.html PhoneGap What is PhoneGap? PhoneGap is a framework by Nitobi Software Inc. which allows you to package apps build in HTML for a variety of platforms Provides sample projects and scripts for creating your application from your front-end code Just include the phonegap.js library to access device functions... &lt;script type=&quot;text/javascript&quot; src=&quot;phonegap.js&quot;&gt;&lt;/script&gt;  code/slide7-1.html For example, native device alerts and vibration... navigator.notification.alert(&quot;Message here&quot;, &quot;Title here&quot;, &quot;Button Label Here&quot;); navigator.notification.vibrate();  code/slide7-2.js DevNest.app A mobile application for Twitter Developer Nest Created for iPhone and Android I will now show you a quick demo of the application running on the iPhone simulator... Thank you! Thank you for watching the presentation. The DevNest app is available now on your local app store. You can also get this presentation and all the related resources from GitHub in seconds. iOS: http://bit.ly/devnest-iphone Android: Search DevNest on the Market  The DevNest app source code is available on GitHub. iOS: http://bit.ly/devnest-iphone-source Android: http://bit.ly/devnest-android-source  http://bit.ly/devnest-mobileapps    git clone git://github.com/timrogers/building-mobile-apps-with-web-standards.git  or visit"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (59);
+            images[0] = "html_files/html.001-001.png";
+            images[1] = "html_files/html.001-002.png";
+            images[2] = "html_files/html.001-003.png";
+            images[3] = "html_files/html.001-004.png";
+            images[4] = "html_files/html.001-005.png";
+            images[5] = "html_files/html.001-006.png";
+            images[6] = "html_files/html.002-001.png";
+            images[7] = "html_files/html.002-002.png";
+            images[8] = "html_files/html.002-003.png";
+            images[9] = "html_files/html.002-004.png";
+            images[10] = "html_files/html.002-005.png";
+            images[11] = "html_files/html.002-006.png";
+            images[12] = "html_files/html.002-007.png";
+            images[13] = "html_files/html.002-008.png";
+            images[14] = "html_files/html.002-009.png";
+            images[15] = "html_files/html.003-001.png";
+            images[16] = "html_files/html.003-002.png";
+            images[17] = "html_files/html.003-003.png";
+            images[18] = "html_files/html.003-004.png";
+            images[19] = "html_files/html.003-005.png";
+            images[20] = "html_files/html.003-006.png";
+            images[21] = "html_files/html.003-007.png";
+            images[22] = "html_files/html.003-008.png";
+            images[23] = "html_files/html.003-009.png";
+            images[24] = "html_files/html.003-010.png";
+            images[25] = "html_files/html.003-011.png";
+            images[26] = "html_files/html.003-012.png";
+            images[27] = "html_files/html.004-001.png";
+            images[28] = "html_files/html.004-002.png";
+            images[29] = "html_files/html.004-003.png";
+            images[30] = "html_files/html.004-004.png";
+            images[31] = "html_files/html.004-005.png";
+            images[32] = "html_files/html.004-006.png";
+            images[33] = "html_files/html.004-007.png";
+            images[34] = "html_files/html.004-008.png";
+            images[35] = "html_files/html.004-009.png";
+            images[36] = "html_files/html.005-001.png";
+            images[37] = "html_files/html.005-002.png";
+            images[38] = "html_files/html.005-003.png";
+            images[39] = "html_files/html.005-004.png";
+            images[40] = "html_files/html.005-005.png";
+            images[41] = "html_files/html.005-006.png";
+            images[42] = "html_files/html.006-001.png";
+            images[43] = "html_files/html.006-002.png";
+            images[44] = "html_files/html.007-001.png";
+            images[45] = "html_files/html.007-002.png";
+            images[46] = "html_files/html.007-003.png";
+            images[47] = "html_files/html.007-004.png";
+            images[48] = "html_files/html.007-005.png";
+            images[49] = "html_files/html.007-006.png";
+            images[50] = "html_files/html.008-001.png";
+            images[51] = "html_files/html.008-002.png";
+            images[52] = "html_files/html.008-003.png";
+            images[53] = "html_files/html.008-004.png";
+            images[54] = "html_files/html.009-001.png";
+            images[55] = "html_files/html.009-002.png";
+            images[56] = "html_files/html.009-003.png";
+            images[57] = "html_files/html.009-004.png";
+            images[58] = "html_files/html.009-005.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="html_files/html.001-001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="html_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="html_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="html_files/next.png" onclick="Step(1)"/>
+    </p>
+</body>
+</html>
